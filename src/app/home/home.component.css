@@ -1,0 +1,19 @@
+.content-blog{
+    background: #fff;
+    height: auto;
+    min-height: 500px;
+}
+
+.container-blog{
+    padding: 20px;
+    position: relative;
+}
+
+.uk-card:hover{
+    cursor: pointer;
+}
+
+.title-bl{
+    margin-top: 12px;
+    margin-bottom: 14px;
+}
