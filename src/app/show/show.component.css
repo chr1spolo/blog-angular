@@ -1,0 +1,41 @@
+.see_more{
+    position: absolute;
+    right: 0;
+    top: 50%;
+    cursor: pointer;
+}
+
+.content-blog{
+    background: linear-gradient(
+        to right, 
+        rgba(255, 255, 255, 0) 0%,
+        rgba(255, 255, 255, .8) 10%,
+        rgba(255, 255, 255, .9) 15%,
+        rgba(255, 255, 255, 1) 20%, 
+        rgba(255, 255, 255, 0) 55%,
+        rgba(255, 255, 255, 1) 80%,
+        rgba(255, 255, 255, .9) 85%,
+        rgba(255, 255, 255, .8) 90%,
+        rgba(255, 255, 255, 0) 100%
+        );
+}
+
+.uk-overlay-default{
+    background: linear-gradient(
+        to right, 
+        rgba(255, 255, 255, 0) 0%,
+        rgba(255, 255, 255, .8) 10%,
+        rgba(255, 255, 255, .9) 15%,
+        rgba(255, 255, 255, 1) 20%, 
+        rgba(255, 255, 255, 1) 55%,
+        rgba(255, 255, 255, 1) 80%,
+        rgba(255, 255, 255, .9) 85%,
+        rgba(255, 255, 255, .8) 90%,
+        rgba(255, 255, 255, 0) 100%
+        );
+        color: #c0c0c0;
+}
+
+.uk-container.uk-container-small{
+    background-color: #fff;
+}

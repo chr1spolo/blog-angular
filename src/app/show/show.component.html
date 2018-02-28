@@ -1,3 +1,4 @@
+
 <div class="title-animated uk-animation align-center color-white" style="height: 165px;position:relative;">
     <h1 class="align-center color-white uk-animation-slide-left">
         Title content
@@ -7,9 +8,36 @@
     </div>
 </div>
 
+
+<div id="offcanvas-slide" uk-offcanvas="overlay: true">
+    <div class="uk-offcanvas-bar">
+
+        <button class="uk-offcanvas-close" type="button" uk-close></button>
+
+        <h3> Nombre de la obra </h3>
+
+        <ul uk-accordion="collapsible: false">
+                <li>
+                    <a class="uk-accordion-title uk-text-small uk-text-bold uk-text-uppercase uk-button uk-button-text uk-text-left" href="#"> Capitulo 1 </a>
+                    <div class="uk-accordion-content">
+                        <p>Breve descripcion del cap..</p>
+                        <ul class="uk-iconnav">
+                                <li uk-tooltip="Estrellas  5"><a href="#" uk-icon="icon: star"></a></li>
+                                <li uk-tooltip="Total visitas 5"><a href="#" uk-icon="icon: bolt"></a></li>
+                        </ul>
+                        <br>
+                        <a class="uk-button uk-button-text"> más </a>
+                    </div>
+                </li>
+        </ul>
+
+    </div>
+</div>
+
 <div class="content-blog">
+
     <div class="uk-container uk-container-small">
-        <h3 class="uk-text-right uk-text-small uk-text-capitalize" style="margin-top: 12px;"> Categoria | icono </h3>
+        <h3 class="uk-text-right uk-text-small uk-text-capitalize" style="margin-top: 12px;">  <span class="uk-label uk-label-success">Desarrollo</span> </h3>
         <hr class="uk-divider-icon">
         <p>
             Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede.
@@ -21,6 +49,35 @@
             Praesent dapibus, neque id cursus faucibus, tortor neque egestas auguae, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus.
             
             Phasellus ultrices nulla quis nibh. Quisque a lectus. Donec consectetuer ligula vulputate sem tristique cursus. Nam nulla quam, gravida non, commodo a, sodales sit amet, nisi.
+        
         </p>
+        <p>
+            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede.
+
+            Donec nec justo eget felis facilisis fermentum. Aliquam porttitor mauris sit amet orci. Aenean dignissim pellentesque felis.
+            
+            Morbi in sem quis dui placerat ornare. Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu. Cras consequat.
+            
+            Praesent dapibus, neque id cursus faucibus, tortor neque egestas auguae, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus.
+            
+            Phasellus ultrices nulla quis nibh. Quisque a lectus. Donec consectetuer ligula vulputate sem tristique cursus. Nam nulla quam, gravida non, commodo a, sodales sit amet, nisi.
+        
+        </p>
+        <p>
+            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede.
+
+            Donec nec justo eget felis facilisis fermentum. Aliquam porttitor mauris sit amet orci. Aenean dignissim pellentesque felis.
+            
+            Morbi in sem quis dui placerat ornare. Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu. Cras consequat.
+            
+            Praesent dapibus, neque id cursus faucibus, tortor neque egestas auguae, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus.
+            
+            Phasellus ultrices nulla quis nibh. Quisque a lectus. Donec consectetuer ligula vulputate sem tristique cursus. Nam nulla quam, gravida non, commodo a, sodales sit amet, nisi.
+        
+        </p>
+        
+        <a class="see_more" uk-toggle="target: #offcanvas-slide" uk-icon="icon: chevron-right; ratio: 2"></a>
+        <hr class="uk-divider-icon">
     </div>
+    
 </div>
