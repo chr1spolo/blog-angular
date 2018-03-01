@@ -1,5 +1,6 @@
 html, body{
     width: 100%;
+    height: auto;
 }
 
 body {
@@ -21,6 +22,11 @@ body {
 .content-blog{
     background: #fff;
     height: auto;
-    min-height: 500px;
+    min-height: 67.5%;
     position: relative;
+}
+
+.uk-icon-button:focus, .uk-icon-button:hover{
+    background-color: #32d296 !important;
+    color: #fff8f8 !important;
 }

@@ -21,6 +21,8 @@ export class HomeComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
+    document.getElementsByTagName('body')[0].style.minHeight = `${window.innerHeight}px`;
+    document.getElementsByTagName('body')[0].style.height = `${window.innerHeight}px`;
   }
 
   cutter(string: string) {

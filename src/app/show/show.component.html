@@ -76,8 +76,67 @@
         
         </p>
         
-        <a class="see_more" uk-toggle="target: #offcanvas-slide" uk-icon="icon: chevron-right; ratio: 2"></a>
+        <a class="see_more arrow_animate" uk-toggle="target: #offcanvas-slide" uk-icon="icon: chevron-right; ratio: 2"></a>
         <hr class="uk-divider-icon">
+        <article class="uk-comment">
+            <header class="uk-comment-header uk-grid-medium uk-flex-middle" uk-grid>
+                <div class="uk-width-auto">
+                    <img class="uk-comment-avatar" src="https://scontent.fctg1-1.fna.fbcdn.net/v/t1.0-9/28058534_185424915555108_596327094961158333_n.jpg?oh=a746b75fbfb50ab7d107bcc83efa4676&oe=5B05484C" width="80" height="80" alt="">
+                </div>
+                <div class="uk-width-expand">
+                    <h4 class="uk-comment-title uk-margin-remove"><a class="uk-link-reset" href="#">Author</a></h4>
+                    <ul class="uk-comment-meta uk-subnav uk-subnav-divider uk-margin-remove-top">
+                        <li><a>12 days ago</a></li>
+                        <li>
+                            <a>
+                                <a href="" class="uk-icon-button uk-margin-small-right" uk-icon="twitter"></a>
+                                <a href="" class="uk-icon-button  uk-margin-small-right" uk-icon="facebook"></a>
+                            </a>
+                        </li>
+                        <li>
+                            <a>
+                                <fieldset class="rating">
+                                    <input type="radio" id="star5" name="rating" value="5" />
+                                        <label class = "full" for="star5" title="Increible"></label>
+                                    <input type="radio" id="star4half" name="rating" value="4.5" />
+                                        <label class="half" for="star4half" title="Muy bueno"></label>
+                                    <input type="radio" id="star4" name="rating" value="4" />
+                                        <label class = "full" for="star4" title="Buenisimo"></label>
+                                    <input type="radio" id="star3half" name="rating" value="3.5" />
+                                        <label class="half" for="star3half" title="Bueno"></label>
+                                    <input type="radio" id="star3" name="rating" value="3" />
+                                        <label class = "full" for="star3" title="Normal"></label>
+                                    <input type="radio" id="star2half" name="rating" value="2.5" />
+                                        <label class="half" for="star2half" title="Mas o menos"></label>
+                                    <input type="radio" id="star2" name="rating" value="2" />
+                                        <label class = "full" for="star2" title="Mal"></label>
+                                    <input type="radio" id="star1half" name="rating" value="1.5" />
+                                        <label class="half" for="star1half" title="Terrible"></label>
+                                    <input type="radio" id="star1" name="rating" value="1" />
+                                        <label class = "full" for="star1" title="Horroroso"></label>
+                                    <input type="radio" id="starhalf" name="rating" value="0.5" />
+                                        <label class="half" for="starhalf" title="El peor de todos"></label>
+                                </fieldset>
+                            </a>
+                        </li>
+                        <li>
+                            <a>
+                                <a uk-icon="bolt"></a>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </header>
+            <div class="uk-comment-body">
+                <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+            </div>
+        </article>
+        <br>
+
+        <button class="uk-button uk-button-text uk-width-1-1 uk-margin-small-bottom"
+        (click)="showComments()">Ver comentarios</button>
+        
+        <div class="comments" id="comments"></div>
     </div>
     
 </div>
